@@ -36,7 +36,6 @@ contract DocumentVerifier {
         emit DocumentRegistered(docHash, _title);
     }
 
-    // Plus de 'view' ici, parce qu'on émet un événement
     function verifyDocument(
         string memory _title,
         uint256 _size,
